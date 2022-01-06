@@ -1,9 +1,9 @@
-# KEPLER
+# HALLEY
 
-- POC using ngins as reverse-proxy
+- POC using node with redis
 - Node (Express) + NGINX
 
-- [KEPLER](#kepler)
+- [HALLEY](#halley)
   - [Requisitos](#requisitos)
   - [Instalação](#instalação)
   - [Acesso](#acesso)
@@ -19,13 +19,13 @@
 - Clone este repositório
 
 ```bash
-$ git clone https://github.com/faxina-projects/kepler.git
+$ git clone https://github.com/faxina-projects/halley.git
 ```
 
 - Acesse a pasta do projeto
 
 ```bash
-$ cd kepler
+$ cd halley
 ```
 
 - Build da imagem e criação do container
