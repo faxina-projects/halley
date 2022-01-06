@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+  halley-api:
+    container_name: halley-api
+    build: .
+    ports:
+      - 3000:3000
+    networks:
+      - halley-network
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    restart: always
+networks:
+  halley-network:
+    driver: bridge
