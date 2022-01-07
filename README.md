@@ -1,7 +1,8 @@
 # HALLEY
 
-- POC using node with redis
-- Node (Express) + NGINX
+- POC using cache with node and redis
+- Description: using redis to cache address data by zipcode
+- Node (Express)
 
 - [HALLEY](#halley)
   - [Requisitos](#requisitos)
@@ -38,5 +39,4 @@ $ docker-compose up --build
 
 ### Aplicação
 
-- nginx: http://localhost:3005
 - app: http://localhost:3000
