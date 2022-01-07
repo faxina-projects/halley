@@ -1,10 +1,5 @@
 import helmet from 'helmet';
 
-import { GetAddressByZipCodeController } from '@/presentation/controllers/address';
-
-import { ViaCepApiAdapter } from '../address/adapters';
-import { ViaCepApiService } from '../address/services';
-import { HttpRequestService } from '../http-client/services';
 import { ErrorMiddleware } from '../middlewares';
 import {
   Application,

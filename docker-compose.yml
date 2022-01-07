@@ -11,6 +11,13 @@ services:
       - .:/usr/src/app
       - /usr/src/app/node_modules
     restart: always
+  halley-redis-server:
+    container_name: halley-redis-server
+    image: 'redis:6.2-alpine'
+    networks:
+      - halley-network
+    ports:
+      - 6379:6379
 networks:
   halley-network:
     driver: bridge

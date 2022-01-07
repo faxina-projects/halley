@@ -2,7 +2,7 @@ import { App } from './infrastructure/app';
 
 (async (): Promise<void> => {
   try {
-    const app = new App(3001);
+    const app = new App(3000);
     await app.listen();
   } catch (error: any) {
     console.error(`Error occured: ${error.message}`);
